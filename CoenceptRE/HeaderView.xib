@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Rahmat_Emmanuel" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNavLeft" destination="qhi-5x-aSD" id="TzJ-8q-9LS"/>
+                <outlet property="btnNavRight" destination="zOI-hF-XUt" id="9aa-9j-Ngo"/>
+                <outlet property="lblTitle" destination="d2X-Ls-UCU" id="wgm-J7-1Cs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburger-menu" translatesAutoresizingMaskIntoConstraints="NO" id="x5A-Ce-26v">
+                    <rect key="frame" x="18" y="39" width="15" height="16"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhi-5x-aSD">
+                    <rect key="frame" x="5" y="32" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="02B-sY-uwa"/>
+                    </constraints>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="IcW-Dd-b04">
+                    <rect key="frame" x="287" y="40" width="16" height="15"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOI-hF-XUt">
+                    <rect key="frame" x="275" y="32" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="DZd-fp-FUg"/>
+                    </constraints>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAHMAT EMMANUEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2X-Ls-UCU">
+                    <rect key="frame" x="72" y="37" width="176" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="QST-rz-2iG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="QST-rz-2iG"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zOI-hF-XUt" secondAttribute="bottom" constant="5" id="2Bv-zg-p23"/>
+                <constraint firstItem="IcW-Dd-b04" firstAttribute="centerX" secondItem="zOI-hF-XUt" secondAttribute="centerX" id="3P7-I1-ZPM"/>
+                <constraint firstItem="qhi-5x-aSD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="7sA-WS-55r"/>
+                <constraint firstItem="zOI-hF-XUt" firstAttribute="leading" secondItem="d2X-Ls-UCU" secondAttribute="trailing" constant="10" id="83a-zb-NoO"/>
+                <constraint firstItem="qhi-5x-aSD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="AGU-HJ-kFQ"/>
+                <constraint firstItem="d2X-Ls-UCU" firstAttribute="leading" secondItem="qhi-5x-aSD" secondAttribute="trailing" priority="250" constant="10" id="Atg-MH-B32"/>
+                <constraint firstItem="IcW-Dd-b04" firstAttribute="centerY" secondItem="zOI-hF-XUt" secondAttribute="centerY" id="LFG-aX-Lxo"/>
+                <constraint firstItem="x5A-Ce-26v" firstAttribute="centerX" secondItem="qhi-5x-aSD" secondAttribute="centerX" id="MWj-U4-pbD"/>
+                <constraint firstAttribute="bottom" secondItem="qhi-5x-aSD" secondAttribute="bottom" constant="5" id="Oal-5L-FVi"/>
+                <constraint firstItem="d2X-Ls-UCU" firstAttribute="centerY" secondItem="qhi-5x-aSD" secondAttribute="centerY" id="Pam-7a-Hoh"/>
+                <constraint firstAttribute="trailing" secondItem="zOI-hF-XUt" secondAttribute="trailing" constant="5" id="SDr-g5-0Lg"/>
+                <constraint firstItem="d2X-Ls-UCU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SoQ-q4-V7c"/>
+                <constraint firstItem="zOI-hF-XUt" firstAttribute="leading" secondItem="d2X-Ls-UCU" secondAttribute="trailing" priority="250" constant="10" id="URk-Wf-TF0"/>
+                <constraint firstItem="x5A-Ce-26v" firstAttribute="width" secondItem="qhi-5x-aSD" secondAttribute="width" id="Ybl-tK-grz"/>
+                <constraint firstItem="d2X-Ls-UCU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bTf-Qi-XBi"/>
+                <constraint firstItem="d2X-Ls-UCU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ehW-Ps-KhC"/>
+                <constraint firstAttribute="bottom" secondItem="d2X-Ls-UCU" secondAttribute="bottom" constant="10" id="kkg-oj-yIr"/>
+                <constraint firstItem="x5A-Ce-26v" firstAttribute="height" secondItem="qhi-5x-aSD" secondAttribute="height" id="mKS-xD-r8N"/>
+                <constraint firstItem="x5A-Ce-26v" firstAttribute="centerY" secondItem="qhi-5x-aSD" secondAttribute="centerY" id="oH7-jw-0yr"/>
+                <constraint firstItem="zOI-hF-XUt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="uj4-K4-gWD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="AGU-HJ-kFQ"/>
+                    <exclude reference="Ybl-tK-grz"/>
+                    <exclude reference="mKS-xD-r8N"/>
+                    <exclude reference="Atg-MH-B32"/>
+                    <exclude reference="SoQ-q4-V7c"/>
+                    <exclude reference="bTf-Qi-XBi"/>
+                    <exclude reference="kkg-oj-yIr"/>
+                    <exclude reference="83a-zb-NoO"/>
+                    <exclude reference="URk-Wf-TF0"/>
+                    <exclude reference="uj4-K4-gWD"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="hamburger-menu" width="15" height="16"/>
+        <image name="search" width="16" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="263" id="KGk-i7-Jjw" customClass="ScheduleTableViewCell" customModule="CoenceptRE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOTEL CIPUTRA JAKARTA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lD-AC-CY8">
+                        <rect key="frame" x="10" y="40" width="300" height="24"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PURI ROOM 5 &amp; 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxj-P4-hRj">
+                        <rect key="frame" x="10" y="69" width="300" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jl. Letnan Jenderal S. Parman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSO-cf-ZWx">
+                        <rect key="frame" x="10" y="115" width="300" height="17"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8AM, 10AM, 1PM, 3PM, 5PM, 7PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax6-5l-UY8">
+                        <rect key="frame" x="10" y="152" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RE Kids Church [ 8AM &amp; 10AM ]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVZ-i6-k9y">
+                        <rect key="frame" x="10" y="171" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET DIRECTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3r-QO-b4k">
+                        <rect key="frame" x="85" y="214" width="150" height="45"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0L-F6-hyl">
+                        <rect key="frame" x="85" y="214" width="150" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="9q1-x9-V1a"/>
+                            <constraint firstAttribute="width" constant="150" id="WCb-lq-QR5"/>
+                        </constraints>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="V0L-F6-hyl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4eZ-T2-2FP"/>
+                    <constraint firstAttribute="trailing" secondItem="Ax6-5l-UY8" secondAttribute="trailing" constant="10" id="543-ge-9D5"/>
+                    <constraint firstAttribute="trailing" secondItem="nSO-cf-ZWx" secondAttribute="trailing" constant="10" id="75a-uB-UgR"/>
+                    <constraint firstItem="nSO-cf-ZWx" firstAttribute="top" secondItem="jxj-P4-hRj" secondAttribute="bottom" constant="30" id="CEY-wr-6WR"/>
+                    <constraint firstItem="Ax6-5l-UY8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Dgo-SM-Y1E"/>
+                    <constraint firstItem="nSO-cf-ZWx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Gmi-Zj-Vxh"/>
+                    <constraint firstItem="Ax6-5l-UY8" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="H8R-M6-pTc"/>
+                    <constraint firstItem="r3r-QO-b4k" firstAttribute="width" secondItem="V0L-F6-hyl" secondAttribute="width" id="J7G-mG-uDV"/>
+                    <constraint firstItem="Ax6-5l-UY8" firstAttribute="top" secondItem="nSO-cf-ZWx" secondAttribute="bottom" constant="20" id="K2j-Jx-4oP"/>
+                    <constraint firstItem="AVZ-i6-k9y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="MRZ-P4-6YH"/>
+                    <constraint firstItem="r3r-QO-b4k" firstAttribute="centerX" secondItem="V0L-F6-hyl" secondAttribute="centerX" id="P7B-MX-2Gi"/>
+                    <constraint firstItem="r3r-QO-b4k" firstAttribute="height" secondItem="V0L-F6-hyl" secondAttribute="height" id="UBl-QS-V1a"/>
+                    <constraint firstItem="AVZ-i6-k9y" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="WNa-sQ-Mlz"/>
+                    <constraint firstAttribute="trailing" secondItem="AVZ-i6-k9y" secondAttribute="trailing" constant="10" id="Yis-vE-cJA"/>
+                    <constraint firstItem="AVZ-i6-k9y" firstAttribute="top" secondItem="Ax6-5l-UY8" secondAttribute="bottom" constant="1" id="bBY-Pe-BP9"/>
+                    <constraint firstItem="jxj-P4-hRj" firstAttribute="top" secondItem="2lD-AC-CY8" secondAttribute="bottom" constant="5" id="c2c-G7-1Iw"/>
+                    <constraint firstAttribute="trailing" secondItem="2lD-AC-CY8" secondAttribute="trailing" constant="10" id="d4r-04-wbz"/>
+                    <constraint firstItem="2lD-AC-CY8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="fg4-NC-qbM"/>
+                    <constraint firstItem="jxj-P4-hRj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ldS-38-4Ej"/>
+                    <constraint firstItem="r3r-QO-b4k" firstAttribute="centerY" secondItem="V0L-F6-hyl" secondAttribute="centerY" id="nb8-sl-KEJ"/>
+                    <constraint firstItem="jxj-P4-hRj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oNf-OS-LWl"/>
+                    <constraint firstItem="V0L-F6-hyl" firstAttribute="top" secondItem="AVZ-i6-k9y" secondAttribute="bottom" constant="25" id="qM6-2y-72Z"/>
+                    <constraint firstAttribute="trailing" secondItem="jxj-P4-hRj" secondAttribute="trailing" constant="10" id="rSh-MN-5RN"/>
+                    <constraint firstItem="nSO-cf-ZWx" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rU7-Vp-JMs"/>
+                    <constraint firstItem="2lD-AC-CY8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="u9h-vS-Zvg"/>
+                    <constraint firstItem="2lD-AC-CY8" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ymq-Tj-Je5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="btnDirection" destination="V0L-F6-hyl" id="jgg-yp-rv6"/>
+                <outlet property="lblAddress" destination="nSO-cf-ZWx" id="h1n-4T-3bw"/>
+                <outlet property="lblKidsSchedule" destination="AVZ-i6-k9y" id="Zki-iW-wMf"/>
+                <outlet property="lblMainSchedule" destination="Ax6-5l-UY8" id="pa4-Cy-2kz"/>
+                <outlet property="lblRoom" destination="jxj-P4-hRj" id="Q1m-7o-28S"/>
+                <outlet property="lblTitle" destination="2lD-AC-CY8" id="wOP-8A-BtB"/>
+            </connections>
+            <point key="canvasLocation" x="260" y="292"/>
+        </tableViewCell>
+    </objects>
+</document>
